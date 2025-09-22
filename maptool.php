@@ -21,4 +21,4 @@ print_r($mapData->getMapStats());
 
 $time_end = microtime(true);
 $execution_time = ($time_end - $time_start);
-echo '<b>Total Execution Time:</b> '.$execution_time.' seconds';
+echo "\nTotal Execution Time: ".$execution_time.' seconds';
