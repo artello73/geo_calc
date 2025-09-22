@@ -1,0 +1,17 @@
+# IDEs
+.idea/
+.DS_STORE
+cache.properties
+.vscode
+Thumbs.db
+
+**/vendor/
+logs/
+
+#Exclude KMZ files
+**/*.kmz
+
+#Exclude ZoneIdentifier files
+**/*Zone.Identifier
+
+
